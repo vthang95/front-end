@@ -1,0 +1,59 @@
+html {
+  font-family: "Tahoma", "Arial", sans-serif;
+}
+
+h1
+,a {
+  color: red;
+}
+
+p {
+  background: yellow;
+}
+
+#first {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+[type = "password"] {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 6);
+}
+
+[href] {
+  font-size: 30px;
+}
+
+nav a {
+  text-decoration: line-through;
+}
+
+nav > a {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%
+}
+
+img:hover {
+  box-shadow: 0 -3px 5px rgba(255, 0, 0, 0.5);
+}
+
+a:active {
+  color: red;
+}
+
+input:focus {
+  border: 1px dashed red;
+}
+
+.react {
+  background: red;
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+}
