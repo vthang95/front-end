@@ -1,4 +1,4 @@
-# Usage age:
+# Usage:
 
 Run these commands in order.
 
