@@ -12,9 +12,11 @@ server.use(
   })
 );
 
-server.use(  static(__dirname + '/public'));
+server.use(static(__dirname + '/public'));
 
-server.listen(3000);
+server.listen(3000, () => {
+  console.log('App is running on port 3000...');
+});
 
 var livereload = require('livereload');
 var lrserver = livereload.createServer();
