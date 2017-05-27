@@ -1,7 +1,6 @@
 .menu {
   text-align: center;
   background-color: #D5B0AC;
-  height: 30px;
 }
 
 .menu-vertical {
@@ -17,7 +16,6 @@
   display: inline-block;
   line-height: 30px;
   width: 100px;
-  vertical-align: middle
 }
 
 .menu span:hover {
