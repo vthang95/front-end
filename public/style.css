@@ -22,5 +22,5 @@
 .menu span:hover {
   background-color: #9CD08F;
   color: #fff;
-  cursor: default;
+  cursor: pointer;
 }
